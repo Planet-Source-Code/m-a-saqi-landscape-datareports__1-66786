@@ -1,0 +1,292 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\PSINVENTORY
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Paradox=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+SSCSDK80.DLL=
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+p2BBND.DLL=
+p2BBDE.DLL=
+Crystal=
+User.DLL=
+Kernel.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+F:\WINNT\system32\MSEXCH35.DLL=
+F:\WINNT\Speech\VText.dll=
+F:\WINNT\system32\agentctl.dll=
+F:\WINNT\system32\amcompat.tlb=
+F:\WINNT\system32\asptxn.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+F:\WINNT\system32\comctl32.ocx=
+F:\WINNT\system32\msdbrptr.dll=
+F:\WINNT\system32\COMCT332.OCX=
+F:\WINNT\system32\msdatlst.ocx=
+F:\WINNT\system32\Msstdfmt.dll=
+F:\WINNT\system32\mschrt20.ocx=
+F:\WINNT\system32\RICHTX32.OCX=
+F:\WINNT\system32\MSCOMCT2.OCX=
+F:\WINNT\system32\Mscomctl.ocx=
+F:\WINNT\system32\COMDLG32.OCX=
+F:\WINNT\system32\msflxgrd.ocx=
+F:\WINNT\system32\tabctl32.ocx=
+F:\WINNT\system32\Msrdo20.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\PSINVENTORY\PSI FG\PSMMS.exe=Yes
+F:\WINNT\system32\msvbvm60.dll=Yes
+F:\WINNT\system32\oleaut32.dll=Yes
+F:\WINNT\system32\olepro32.dll=Yes
+F:\WINNT\system32\asycfilt.dll=Yes
+F:\WINNT\system32\stdole2.tlb=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\WINNT\system32\MSRDC20.OCX=Yes
+F:\WINNT\system32\Msrdo20.dll=Yes
+F:\WINNT\system32\Rdocurs.dll=Yes
+F:\WINNT\system32\tabctl32.ocx=Yes
+F:\WINNT\system32\msflxgrd.ocx=Yes
+F:\WINNT\system32\COMDLG32.OCX=Yes
+F:\WINNT\system32\Mscomctl.ocx=Yes
+F:\WINNT\system32\MSCOMCT2.OCX=Yes
+F:\WINNT\system32\MSINET.OCX=Yes
+F:\WINNT\system32\RICHTX32.OCX=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+F:\WINNT\system32\mschrt20.ocx=Yes
+F:\WINNT\system32\MSWINSCK.OCX=Yes
+F:\WINNT\system32\MSMAPI32.OCX=Yes
+F:\WINNT\system32\PICCLP32.OCX=Yes
+F:\WINNT\system32\SYSINFO.OCX=Yes
+F:\WINNT\system32\MSCOMM32.OCX=Yes
+F:\WINNT\system32\Msmask32.ocx=Yes
+F:\WINNT\system32\MSDATGRD.OCX=Yes
+F:\WINNT\system32\Msstdfmt.dll=Yes
+F:\WINNT\system32\msdatlst.ocx=Yes
+F:\WINNT\system32\COMCT332.OCX=Yes
+F:\WINNT\system32\Msadodc.ocx=Yes
+F:\WINNT\system32\MSHFLXGD.OCX=Yes
+F:\WINNT\system32\msdbrptr.dll=Yes
+F:\WINNT\system32\Msado20.tlb=Yes
+F:\WINNT\system32\DAO350.DLL=Yes
+F:\WINNT\system32\MSJET35.DLL=Yes
+F:\WINNT\system32\msjter35.dll=Yes
+F:\WINNT\system32\Msjint35.dll=Yes
+F:\WINNT\system32\vbajet32.dll=Yes
+F:\WINNT\system32\expsrv.dll=Yes
+F:\WINNT\system32\msrd2x35.dll=Yes
+F:\WINNT\system32\MSREPL35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+F:\WINNT\system32\Vb5db.dll=Yes
+F:\WINNT\system32\Msbind.dll=Yes
+F:\WINNT\system32\WBOCX.OCX=Yes
+F:\WINNT\system32\MSDERUN.DLL=Yes
+F:\WINNT\system32\asptxn.dll=Yes
+F:\WINNT\system32\amcompat.tlb=Yes
+F:\WINNT\system32\comctl32.ocx=Yes
+F:\WINNT\system32\agentctl.dll=Yes
+F:\WINNT\Speech\VText.dll=Yes
+F:\WINNT\system32\Crystl32.OCX=Yes
+F:\WINNT\system32\crpe32.dll=Yes
+F:\WINNT\system32\Implode.dll=Yes
+F:\WINNT\system32\Crpaig80.dll=Yes
+F:\WINNT\system32\msvcrt.dll=Yes
+F:\WINNT\system32\mfc42.dll=Yes
+F:\WINNT\Crystal\Crxlat32.dll=Yes
+F:\WINNT\system32\p2bdao.dll=Yes
+F:\WINNT\Crystal\p2bxbse.dll=Yes
+F:\WINNT\system32\p2ctdao.dll=Yes
+F:\WINNT\system32\p2irdao.dll=Yes
+F:\WINNT\Crystal\p2sifmx.dll=Yes
+F:\WINNT\system32\P2smon.dll=Yes
+F:\WINNT\system32\p2sodbc.dll=Yes
+F:\WINNT\Crystal\p2sora7.dll=Yes
+F:\WINNT\Crystal\p2ssql.dll=Yes
+F:\WINNT\Crystal\p2ssyb10.dll=Yes
+F:\WINNT\Crystal\p2soledb.dll=Yes
+F:\WINNT\Crystal\u2ddisk.dll=Yes
+F:\WINNT\Crystal\u2dmapi.dll=Yes
+F:\WINNT\Crystal\u2dnotes.dll=Yes
+F:\WINNT\Crystal\u2dpost.dll=Yes
+F:\WINNT\Crystal\u2dvim.dll=Yes
+F:\WINNT\Crystal\u2dapp.dll=Yes
+F:\WINNT\Crystal\u2fcr.dll=Yes
+F:\WINNT\Crystal\u2fhtml.dll=Yes
+F:\WINNT\Crystal\u2fodbc.dll=Yes
+F:\WINNT\Crystal\u2frec.dll=Yes
+F:\WINNT\Crystal\u2frtf.dll=Yes
+F:\WINNT\Crystal\u2fsepv.dll=Yes
+F:\WINNT\Crystal\u2ftext.dll=Yes
+F:\WINNT\Crystal\u2fwks.dll=Yes
+F:\WINNT\Crystal\u2fwordw.dll=Yes
+F:\WINNT\Crystal\u2fxls.dll=Yes
+F:\WINNT\Crystal\u25dts.dll=Yes
+F:\WINNT\Crystal\u2l2000.dll=Yes
+F:\WINNT\Crystal\u2lcom.dll=Yes
+F:\WINNT\Crystal\u2ldts.dll=Yes
+F:\WINNT\Crystal\u2lsamp1.dll=Yes
+F:\WINNT\Crystal\u252000.dll=Yes
+F:\WINNT\system32\MSEXCL35.DLL=Yes
+F:\WINNT\system32\MSEXCH35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\WINNT\system32\MSPDOX35.DLL=Yes
+F:\WINNT\system32\MSTEXT35.DLL=Yes
+F:\WINNT\system32\MSXBSE35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINNT\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\PSINVENTORY\PSI FG\PSMMS.exe=$(AppPath)
+F:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\MSRDC20.OCX=$(WinSysPath)
+F:\WINNT\system32\Msrdo20.dll=$(WinSysPath)
+F:\WINNT\system32\Rdocurs.dll=$(WinSysPath)
+F:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+F:\WINNT\system32\msflxgrd.ocx=$(WinSysPath)
+F:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+F:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+F:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+F:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+F:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\mschrt20.ocx=$(WinSysPath)
+F:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+F:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+F:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+F:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+F:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+F:\WINNT\system32\Msmask32.ocx=$(WinSysPath)
+F:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+F:\WINNT\system32\Msstdfmt.dll=$(WinSysPath)
+F:\WINNT\system32\msdatlst.ocx=$(WinSysPath)
+F:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+F:\WINNT\system32\Msadodc.ocx=$(WinSysPath)
+F:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+F:\WINNT\system32\msdbrptr.dll=$(WinSysPath)
+F:\WINNT\system32\Msado20.tlb=$(WinSysPath)
+F:\WINNT\system32\DAO350.DLL=$(MSDAOPath)
+F:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\msjter35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\Msjint35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\msrd2x35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\Vb5db.dll=$(WinSysPath)
+F:\WINNT\system32\Msbind.dll=$(WinSysPath)
+F:\WINNT\system32\WBOCX.OCX=$(WinSysPath)
+F:\WINNT\system32\MSDERUN.DLL=$(WinSysPath)
+F:\WINNT\system32\asptxn.dll=$(WinSysPath)
+F:\WINNT\system32\amcompat.tlb=$(WinSysPath)
+F:\WINNT\system32\comctl32.ocx=$(WinSysPath)
+F:\WINNT\system32\agentctl.dll=$(WinSysPath)
+F:\WINNT\Speech\VText.dll=$(WinSysPath)
+F:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+F:\WINNT\system32\crpe32.dll=$(WinSysPath)
+F:\WINNT\system32\Implode.dll=$(AppPath)
+F:\WINNT\system32\Crpaig80.dll=$(WinSysPath)
+F:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+F:\WINNT\system32\mfc42.dll=$(WinSysPath)
+F:\WINNT\Crystal\Crxlat32.dll=$(WinSysPath)
+F:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2bxbse.dll=$(WinSysPath)
+F:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+F:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2sifmx.dll=$(WinSysPath)
+F:\WINNT\system32\P2smon.dll=$(WinSysPath)
+F:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2sora7.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2ssql.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2ssyb10.dll=$(WinSysPath)
+F:\WINNT\Crystal\p2soledb.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2ddisk.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2dmapi.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2dnotes.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2dpost.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2dvim.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2dapp.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fcr.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fhtml.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fodbc.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2frec.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2frtf.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fsepv.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2ftext.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fwks.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fwordw.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2fxls.dll=$(WinSysPath)
+F:\WINNT\Crystal\u25dts.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2l2000.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2lcom.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2ldts.dll=$(WinSysPath)
+F:\WINNT\Crystal\u2lsamp1.dll=$(WinSysPath)
+F:\WINNT\Crystal\u252000.dll=$(WinSysPath)
+F:\WINNT\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\MSEXCH35.DLL=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\WINNT\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\PSINVENTORY\PSI FG\PSMMS.exe=No
+F:\WINNT\system32\Implode.dll=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=psi
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\PSINVENTORY
+ProjectFolder=D:\PSINVENTORY\PSI FG
+ServerSideCab=
+File1=D:\PSINVENTORY\setup.exe
+File2=D:\PSINVENTORY\Setup.Lst
+File3=D:\PSINVENTORY\PSMMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
